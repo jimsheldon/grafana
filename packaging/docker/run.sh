@@ -1,7 +1,5 @@
 #!/bin/bash -e
 
-# trigger build
-
 PERMISSIONS_OK=0
 
 if [ ! -r "$GF_PATHS_CONFIG" ]; then
